@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dojo Survey | Coding Dojo</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='site.css') }}" type="text/css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Coding Dojo Survey Test System</h1>
+
+            <h2>Submitted Info</h2>
+
+            <h3>Fullname: {{ name }}</h3>
+            <h3>Location: {{ location }}</h3>
+            <h3>Language: {{ language }}</h3>
+            <h3>Comments: {{ comments }}</h3>
+            <a href="/" class="button">Go Back</a>
+        </div>
+
+    </body>
+</html>

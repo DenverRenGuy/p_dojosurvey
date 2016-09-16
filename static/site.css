@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    text-align: center;
+    padding-bottom: 1em;
+}
+h3{
+    margin-left: 5em;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 3em;
+    display: block;
+}
+
+input, select, textarea{
+    display: block;
+    padding: .2em 0em .2em .2em;
+    margin: 0em .7em.5em .7em;
+}
+
+
+
+.button{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    border: 0px;
+    padding: .2em;
+    margin-left: 15em;
+}
+
+#wrapper{
+    margin: auto;
+    width: 80%
+}
+
+legend{
+    padding: .2em 0.5em;
+    border: 1px solid black;
+    color: blue;
+    font-size: 90%;
+    text-align: right;
+}
