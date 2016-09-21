@@ -9,6 +9,14 @@
         <div id="wrapper">
             <h1>Coding Dojo Survey Test System</h1>
 
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    {% for message in messages %}
+                        <h2>{{message}}</h2>
+                    {% endfor %}
+                {% endif%}
+            {% endwith %}
+
             <div class="survey_form">
                 <form class="" action="/result" method="post">
                     <fieldset>
